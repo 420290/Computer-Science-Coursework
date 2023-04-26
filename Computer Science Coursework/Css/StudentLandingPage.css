@@ -1,0 +1,74 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 28px;
+}
+
+.header-buttons a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10px;
+	background-color: #4CAF50;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+main {
+	padding: 20px;
+}
+
+main h2 {
+	margin-top: 40px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.courses {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.course {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.course h3 {
+	margin-top: 0;
+}
+
+.course p {
+	margin: 10px 0;
+}
+
+.course button {
+	margin-top: 20px;
+}
